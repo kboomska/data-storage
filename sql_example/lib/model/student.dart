@@ -1,5 +1,5 @@
 class Student {
-  int id;
+  int? id;
   String name;
 
   Student({
