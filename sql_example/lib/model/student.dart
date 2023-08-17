@@ -16,8 +16,8 @@ class Student {
 
   factory Student.fromMap(Map<String, dynamic> map) {
     return Student(
-      id: map['id']?.toInt() ?? 0,
-      name: map['name'] ?? '',
+      id: map['id'],
+      name: map['name'],
     );
   }
 }
